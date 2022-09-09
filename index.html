@@ -10,15 +10,13 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
 
+    <script
+      src="https://kit.fontawesome.com/f840a980ae.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./sass/main.css" />
-    <title>Frontend Mentor | [Challenge Name Here]</title>
+    <title>Phone design</title>
   </head>
   <body>
     <div class="container">
@@ -27,14 +25,16 @@
         <div class="phone-container">
           <div class="user-name">
             <div class="user-name__box">
-              <img
-                src="./images/avatar.jpg"
-                alt="Young men"
-                class="user-name__img"
-              />
-              <div class="user-name__text-box">
-                <h3 class="user-name__header">Samuel Green</h3>
-                <span class="user-name__text">Available to Walk</span>
+              <div class="user-name__box-avatar">
+                <img
+                  src="./images/avatar.jpg"
+                  alt="Young men"
+                  class="user-name__img"
+                />
+                <div class="user-name__text-box">
+                  <h3 class="user-name__header">Samuel Green</h3>
+                  <span class="user-name__text">Available to Walk</span>
+                </div>
               </div>
               <div class="user-name__circles">
                 <div class="user-name__circles-item"></div>
@@ -42,6 +42,65 @@
                 <div class="user-name__circles-item"></div>
               </div>
             </div>
+          </div>
+          <div class="message">
+            <div class="message__box">
+              <p class="message__box-text">
+                That sounds great. I'd be happy to discuss more.
+              </p>
+            </div>
+            <div class="message__box__second">
+              <p class="message__box__second-text">
+                Could you send over some pictures of your dog. please?
+              </p>
+            </div>
+            <div class="message__box__picture">
+              <img
+                src="./images/dog-image-1.jpg"
+                alt="pies"
+                class="message__box__picture-item"
+              />
+              <img
+                src="./images/dog-image-2.jpg"
+                alt="pies"
+                class="message__box__picture-item"
+              />
+              <img
+                src="./images/dog-image-3.jpg"
+                alt="pies"
+                class="message__box__picture-item"
+              />
+            </div>
+            <div class="message__box__right-side">
+              <p class="message__box__right-side-text">
+                Here are a few pictures. She's a happy girl!
+              </p>
+            </div>
+            <div class="message__box__right-side-second">
+              <p class="message__box__right-side-second-text">
+                Can you make it?
+              </p>
+            </div>
+            <div class="message__box__end">
+              <p class="message__box__end-text">
+                How long shall I take her out for?
+              </p>
+            </div>
+            <div class="message__box__input">
+              <span class="message__box__input-text">Type a message...</span>
+              <i
+                class="fa-solid fa fa-chevron-right message__box__input-icon"
+              ></i>
+            </div>
+          </div>
+          <h1 class="main-title">Simple booking</h1>
+          <div class="text-box">
+            <p class="main-text">
+              Stay in touch with our dog walkers through the chat interface.
+              This makes it easy to discuss arrangements and make bookings. Once
+              the walk has been completed you can rate your walker and book
+              again all through the chat.
+            </p>
           </div>
         </div>
       </header>

@@ -346,4 +346,38 @@ div .message__box__input-icon {
   bottom: -28rem;
   left: -15%;
 }
+
+@media screen and (min-width: 1440px) {
+  .phone-container {
+    width: 18%;
+  }
+  .header__stamp {
+    /* font-variant: proportional-nums; */
+    width: 36%;
+    height: 64rem;
+    border-bottom-right-radius: 35rem;
+    position: relative;
+    left: -1rem;
+  }
+  .phone-container {
+    top: 33rem;
+    left: 50rem;
+    position: absolute;
+    height: 47rem;
+  }
+  .big-text-box {
+    position: absolute;
+    top: 5rem;
+    left: 37rem;
+  }
+  .main-title {
+    font-size: 3.5rem;
+    text-align: left;
+  }
+  .main-text {
+    text-align: left;
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+}
 /*# sourceMappingURL=main.css.map */

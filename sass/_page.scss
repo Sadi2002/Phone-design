@@ -267,28 +267,110 @@ div .message {
 }
 
 .main-title {
-  width: 37.5rem;
   font-size: 3rem;
   color: rgb(69, 20, 96);
   margin: 8rem auto 2.5rem;
+  text-align: center;
 }
 
 .main-text {
   color: rgba(100, 100, 100, 0.547);
   text-align: center;
   font-size: 1.4rem;
-  width: 100%;
+  width: 70%;
   line-height: 2.2rem;
 }
 
-.text-box {
-  width: 30rem;
+.big-text-box {
   margin: 0 auto;
   position: absolute;
-  bottom: -28rem;
-  left: -15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+@media screen and (min-width: 540px) {
+  .phone-container {
+    width: 250px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .phone-container {
+    width: 270px;
+    height: 450px;
+    left: 48%;
+  }
+
+  .header__stamp {
+    width: 48%;
+    height: 60rem;
+  }
+
+  .main-title {
+    font-size: 4rem;
+  }
+
+  .main-text {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+  }
+
+  .header {
+    margin-bottom: 6rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .phone-container {
+    width: 250px;
+    left: 27%;
+  }
+
+  .header__stamp {
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .phone-container {
+    width: 23%;
+  }
+
+  .header__stamp {
+    /* font-variant: proportional-nums; */
+    width: 36%;
+    height: 64rem;
+    border-bottom-right-radius: 35rem;
+    position: relative;
+    left: -1rem;
+  }
+  .phone-container {
+    top: 33rem;
+    left: 45rem;
+    position: absolute;
+    height: 47rem;
+  }
+
+  .big-text-box {
+    position: absolute;
+    left: 62rem;
+    width: 45%;
+    top: 11rem;
+  }
+
+  .main-title {
+    width: 70%;
+    font-size: 3.5rem;
+    text-align: left;
+  }
+
+  .main-text {
+    text-align: left;
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+}
 @media screen and (min-width: 1440px) {
   .phone-container {
     width: 18%;
@@ -311,11 +393,53 @@ div .message {
 
   .big-text-box {
     position: absolute;
-    top: 5rem;
-    left: 37rem;
+    left: 62rem;
+    width: 45%;
+    top: 11rem;
   }
 
   .main-title {
+    width: 70%;
+    font-size: 3.5rem;
+    text-align: left;
+  }
+
+  .main-text {
+    text-align: left;
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .phone-container {
+    width: 15%;
+  }
+
+  .header__stamp {
+    /* font-variant: proportional-nums; */
+    width: 38%;
+    height: 85rem;
+    border-bottom-right-radius: 43rem;
+    position: relative;
+    left: -1rem;
+  }
+  .phone-container {
+    top: 40rem;
+    left: 74rem;
+    position: absolute;
+    height: 48rem;
+    width: 30rem;
+  }
+
+  .big-text-box {
+    left: 87rem;
+    width: 45%;
+    top: 20rem;
+    position: absolute;
+  }
+
+  .main-title {
+    width: 70%;
     font-size: 3.5rem;
     text-align: left;
   }
